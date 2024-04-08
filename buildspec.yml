@@ -10,5 +10,5 @@ phases:
       
   post_build:
     commands:
-      - aws s3 sync . s3://buckey-kav-abcd
-      
+      - aws s3 sync . s3://bucket-kav-abcd
+
